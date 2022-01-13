@@ -10,3 +10,6 @@
 [Click here for surprise](https://youtu.be/dQw4w9WgXcQ)
 
 **bold text**
+
+
+![Image][Lab-report-1-week-2.png]
