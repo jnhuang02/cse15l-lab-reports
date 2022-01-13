@@ -5,5 +5,4 @@
 
 > * CSE 15L Test
 
-[Click here for surprise][1]
-[1]:(https://youtu.be/dQw4w9WgXcQ
+[Link](https://youtu.be/dQw4w9WgXcQ
