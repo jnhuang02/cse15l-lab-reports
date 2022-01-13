@@ -12,4 +12,6 @@
 **bold text**
 
 
-![Image][Lab-report-1-week-2.png]
+
+
+[Lab report](lab-report-1-week-2.md)
