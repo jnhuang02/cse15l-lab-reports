@@ -1,1 +1,1 @@
-![lab report](lab-report-1-week-2.png)
+![lab report](Lab-report-1-week-2.png)
