@@ -31,6 +31,10 @@ In order to bypass entering the computer’s password everytime when using scp, 
 
 ![ssh2](SSH-keys2.png)
 
+![ssh3](ssh-key3.png)
+
+My passphrase is not empty, which is why it prompts for passphrase in future steps.
+
 6. Optimizing Remote Running
 
 To run commands remotely, use the command ssh cs15lwi22@ieng6.ucsd.edu "ls". It is also useful to use a semicolon so that multiple files can be run at once, such as cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
