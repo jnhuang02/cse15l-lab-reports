@@ -36,3 +36,5 @@ In order to bypass entering the computer’s password everytime when using scp, 
 To run commands remotely, use the command ssh cs15lwi22@ieng6.ucsd.edu "ls". It is also useful to use a semicolon so that multiple files can be run at once, such as cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 
 ![optimize](Optimizing-remote-running.png)
+
+[Home](index.md)
