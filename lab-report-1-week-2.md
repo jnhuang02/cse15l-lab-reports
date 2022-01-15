@@ -1,4 +1,4 @@
-##Lab report week 1
+## Lab report week 1
 1. Installing VScode
 
 To install VScode, first go to the VS code website,  https://code.visualstudio.com,  and download the version on either Mac or Windows. Once that finishes, load up the file, and it should look something like this.
@@ -11,7 +11,7 @@ If on Windows, install a program by the name of OpenSSH, no programs need to be 
 
 ![remote](Remote-connecting.png)
 
-3.Trying Some Commands
+3. Trying Some Commands
 
 There are many commands to use in the terminal. Some examples are pwd, which means print working directory, cd, which means current directory, ls -a meaning show files, and scp meaning secure files. Here are some outputs of some commands.
 
