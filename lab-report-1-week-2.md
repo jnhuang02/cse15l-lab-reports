@@ -1,4 +1,4 @@
-##Lab report week 1
+## Lab report week 1
 1. Installing VScode
 
 To install VScode, first go to the VS code website,  https://code.visualstudio.com,  and download the version on either Mac or Windows. Once that finishes, load up the file, and it should look something like this.
