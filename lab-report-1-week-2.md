@@ -37,7 +37,7 @@ My passphrase is not empty, which is why it prompts for passphrase in future ste
 
 # 6.Optimizing Remote Running
 
-To run commands remotely, use the command `ssh cs15lwi22@ieng6.ucsd.edu "ls`. It is also useful to use a semicolon so that multiple files can be run at once, such as cp WhereAmI.java ; java WhereAmI. Arrow keys can also be used to access previous commands to avoid typing it all over again.
+To run commands remotely, use the command `ssh cs15lwi22@ieng6.ucsd.edu "ls"`. It is also useful to use a semicolon so that multiple files can be run at once, such as cp WhereAmI.java ; java WhereAmI. Arrow keys can also be used to access previous commands to avoid typing it all over again.
 
 ![optimize](Optimizing-remote-running.png)
 
