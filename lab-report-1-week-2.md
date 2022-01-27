@@ -41,7 +41,7 @@ To run commands remotely, use the command `ssh cs15lwi22@ieng6.ucsd.edu "ls"`. I
 
 ![optimize](Optimizing-remote-running.png)
 
-For me to meet the challenge of saving and running the java code remotely, I copied and pasted the scp command from step 4. This took 3 keystrokes. One to highlight the text, one to copy, and one to paste. To run the command remotely, I used the up arrow to access the previous ssh comand from before. I copy and pasted the ```; java WhereAm I``` from the cse 15L website. This took 6 steps. Three keystrokes to access a previous command, and three keystrokes to copy and paste.
+For me to meet the challenge of saving and running the java code remotely, I copied and pasted the scp command from step 4. This took 3 keystrokes. One to highlight the text, one to copy, and one to paste. To run the command remotely, I used the up arrow to access the previous ssh comand from before. I copy and pasted the ```; java WhereAm I``` from the cse 15L website. This took 6 steps. Three keystrokes to access a previous command, and three keystrokes to copy and paste. So overall it takes 9 steps.
 
 ![Keystroke count](Keystrokes-count.png)
 
