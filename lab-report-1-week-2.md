@@ -13,7 +13,7 @@ If on Windows, install a program by the name of OpenSSH, no programs need to be 
 
 # 3.Trying Some Commands
 
-There are many commands to use in the terminal. Some examples are pwd, which means print working directory, cd, which means current directory, ls -a meaning show files, and scp meaning secure files. Here are some outputs of some commands.
+There are many commands to use in the terminal. Some examples are `pwd`, which means print working directory, `cd`, which means current directory, `ls -a` meaning show files, and `scp` meaning secure copy. Here are some outputs of some commands.
 
 ![commands](Trying-some-commands.png)
 
