@@ -15,3 +15,5 @@
 
 
 [Lab report](lab-report-1-week-2.md)
+
+[lab report 2](lab2/lab-report-2-week-2.md)
