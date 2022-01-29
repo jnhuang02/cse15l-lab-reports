@@ -9,7 +9,7 @@ The first bug that was found in the code is that if there are no open brackets, 
 ### Code Change
 ![Code change ](lab2/code-change1.png)
 
-### (Link to test file with error inducing input)[https://github.com/jnhuang02/markdown-parse/blob/f9e065bd084889867656a6baede89fe8a1a9243e/test-file-3.md]
+### [Link to test file with error inducing input](https://github.com/jnhuang02/markdown-parse/blob/f9e065bd084889867656a6baede89fe8a1a9243e/test-file-3.md)
 
 
 ## Second code Change
@@ -21,7 +21,7 @@ The second bug that was found in the code is that empty text, with no brackets o
 ### Code Change
 ![Code change](lab2/code-change2.png)
 
-### (Link to test file with error inducing input)[https://github.com/jnhuang02/markdown-parse/blob/f9e065bd084889867656a6baede89fe8a1a9243e/test-file4.md]
+### [Link to test file with error inducing input](https://github.com/jnhuang02/markdown-parse/blob/f9e065bd084889867656a6baede89fe8a1a9243e/test-file4.md)
 
 ## Third code Change
 The third bug that was found in the code is the issue of valid links. A link is not valid if it has a space. But, in test file 5, adding a space to a link will lead to the link to be printed out, even though if it's not valid. To fix the symptom of having invalid links with space, my group decided to have the solution where if there is a space within the parenthesis, the program will skip that specific bracket and go on to the next link in the file.
@@ -32,4 +32,4 @@ The third bug that was found in the code is the issue of valid links. A link is 
 ### Code Change
 ![Code change](lab2/code-change3.png)
 
-### (Link to test file with error inducing input)[https://github.com/jnhuang02/markdown-parse/blob/f9e065bd084889867656a6baede89fe8a1a9243e/test-file5.md]
+### [Link to test file with error inducing input](https://github.com/jnhuang02/markdown-parse/blob/f9e065bd084889867656a6baede89fe8a1a9243e/test-file5.md)
