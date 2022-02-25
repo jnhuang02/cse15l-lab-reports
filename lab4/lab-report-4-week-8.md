@@ -1,7 +1,7 @@
 # Week 4 lab report
 
 ## Snippet 1
-The proper output for the first snippet should be : [[google.com`](google.com`), [google.com](google.com), [ucsd.edu](ucsd.edu)]
+The proper output for the first snippet should be : [[google.com`](``google.com), [google.com](google.com), [ucsd.edu](ucsd.edu)]
 
 Test:
 ![snip 1 test](testsnip1.png)
