@@ -1,7 +1,7 @@
 # Week 4 lab report
 
 ## Snippet 1
-The proper output for the first snippet should be : [google.com`, [google.com](google.com), [ucsd.edu](ucsd.edu)]
+The proper output for the first snippet should be : [[google.com`](google.com`), [google.com](google.com), [ucsd.edu](ucsd.edu)]
 
 Test:
 ![snip 1 test](testsnip1.png)
@@ -14,7 +14,7 @@ The seperate group's implementation did not pass the test for snip 1.
 ![Other group snippet 1](testimp1.png)
 
 ## Snippet 2
-The proper output for the second snippet should be: [a.com, a.com(), b.com]
+The proper output for the second snippet should be: [[a.com](a.com), [a.com()](a.com()[), [b.com](b.com)]
 
 Test:
 ![snip 2 test](testsnip2.png)
