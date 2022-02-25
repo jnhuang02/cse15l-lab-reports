@@ -10,6 +10,9 @@ My implementation did not pass the test for snip 1.
 Output:
 ![Output snippet 1](myimpsnip1.png)
 
+The seperate group's implementation did not pass the test for snip 1.
+![Other group snippet 1](testimp1.png)
+
 ## Snippet 2
 The proper output for the second snippet should be: [a.com, a.com(), b.com]
 
@@ -20,6 +23,11 @@ My implementation did not pass the test for snip 2.
 Output:
 ![Output snippet 2](myimpsnip2.png)
 
+The seperate group's implementation did not pass the test for snip 2.
+![Other group snippet 2](testimp2.png)
+
+
+
 ## Snippet 3
 The proper output for the third snippet should be: [[https://www.twitter.com](https://www.twitter.com), [https://ucsd-cse15l-w22.github.io/](https://ucsd-cse15l-w22.github.io/), [https://cse.ucsd.edu/](https://cse.ucsd.edu/)]
 
@@ -27,6 +35,12 @@ Test:
 ![snip 3 test](testsnip3.png)
 
 My implementation did not pass the test for snip 3.
+![snip 3 test](myimpsnip3.png)
+
+The seperate group's implementation did not pass the test for snip 3.
+![Other group snippet 3](testimp3.png)
+
+
 
 ## Additional questions
 
