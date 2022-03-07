@@ -1,5 +1,10 @@
 # Week 4 lab report
 
+[Link](https://github.com/jnhuang02/markdown-parse) to my implementation
+
+[Link](https://github.com/mramada22/markdown-parse
+) to seperate group's implementation
+
 ## Snippet 1
 The proper output for the first snippet should be : [[google.com`](google.com), [google.com](google.com), [ucsd.edu](ucsd.edu)]
 
