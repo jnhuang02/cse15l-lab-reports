@@ -18,13 +18,44 @@ The first difference where I found between my implementation and the professor's
 Output for both implementations can be seen here:
 ![Different output](difoutput1.png)
 
-The reason why the professor's implementation printed out the proper link is because it had the test scenario of `[link](/url "title \"&quot;")` meaning that it only prints out the link if it has no spaces. My implementation did not contain this scenario, and thus it printed out the link.
+The reason why the professor's implementation printed out the proper link is because it had the test scenario of `[link](/url "title \"&quot;")` meaning that it only prints out the link if it has no spaces. The code can be seen here:
+
+```
+ String potentialLink = markdown.substring(openParen + 1, closeParen).trim();
+            if(potentialLink.indexOf(" ") == -1 && potentialLink.indexOf("\n") == -1) {
+                toReturn.add(potentialLink);
+                currentIndex = closeParen + 1;
+            }
+            else {
+                currentIndex = currentIndex + 1;
+            }
+```
+
+As seen in the code, the professor's implementation had a scenario that where it contains space, it will automatically skip the link in the text file and move onto the next link.
+
+My implementation did somewhat address this, but it did not return the correct output because it looks for the another open parenthesis after the current link. But, my code was done in a way in where I anticipated the code having another link in the file. Since the text did not have a second link, open and close parenthesis returned -1. Since -1 + 1 = 0, it ended up printing out the substring of the entire text, because I did not properly update open and close parenthesis after this scenario.
+
+My implementation code:
+
+```
+String sub = markdown.substring(openParen, closeParen);
+            //If link has space, will not print, as it is not real link.
+            if(sub.indexOf(" ", openParen) != -1){
+                openParen = markdown.indexOf("(", nextCloseBracket + 2);
+                closeParen = markdown.indexOf(")", openParen);
+            }
+            toReturn.add(markdown.substring(openParen + 1, closeParen));
+            currentIndex = closeParen + 1;
+        }
+```
+
+
 
 ## Second Differemt File Implementation
 
 The second different output is in file (497.md)[https://github.com/ucsd-cse15l-w22/markdown-parse/blob/main/test-files/497.md], where it has the text `[link](foo\(and\(bar\))`. This is obviously not a valid link due to the number of open and closed parenthesis in the markdown parse. Naturally, the expected output should be empty as it is not a real link and should not be returned. 
 
-The implementation done by the professor is correct, while mine is wrong.
+The implementation done by the professor is correct, while mine is wrong because it did not properly address this. 
 
 ![Second output implementation](difimp2.png)
 
