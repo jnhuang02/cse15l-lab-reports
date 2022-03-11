@@ -33,7 +33,7 @@ The reason why the professor's implementation printed out the proper link is bec
 
 As seen in the code, the professor's implementation had a scenario that where it contains space, it will automatically skip the link in the text file and move onto the next link.
 
-My implementation did somewhat address this, but it did not return the correct output because it looks for the another open parenthesis after the current link. But, my code was done in a way in where I anticipated the code having another link in the file. Since the text did not have a second link, open and close parenthesis returned -1. Since -1 + 1 = 0, it ended up printing out the substring of the entire text, because I did not properly update open and close parenthesis after this scenario.
+My implementation did somewhat address this, but it did not return the correct output because it looks for the another open parenthesis after the current link. But, my code was done in a way in where I anticipated the code having another link in the file. Since the text did not have a second link, open parenthesis returned -1. Since -1 + 1 = 0, it ended up printing out the substring of the entire text. Close parenthesis did not properly update and stayed the same as the last index of the substring because it looked for a closed parenthesis after the same open parenthesis. So the substring added was from 0 to the index of the closed substring.
 
 My implementation code:
 
