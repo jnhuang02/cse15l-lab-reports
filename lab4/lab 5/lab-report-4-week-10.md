@@ -13,7 +13,7 @@ Google Docs [link](https://docs.google.com/spreadsheets/d/1esdOzHaPRJhf90w0g5tPl
 
 ## First Different File Implementation
 
-The first difference where I found between my implementation and the professor's implementation is in 505.md. The professor's output value is `[]`, because the text file is not a valid link. But, my test implementation printed out `[[link](/url "title \"&quot;"]`. The reason why it is not a link is because it contains spaces, quotes at various places of the file, as well as backslashes throughout the link. The file has the text `[link](/url "title \"&quot;")`. 
+The first difference where I found between my implementation and the professor's implementation is in [505.md](https://github.com/ucsd-cse15l-w22/markdown-parse/blob/main/test-files/505.md). The professor's output value is `[]`, because the text file is not a valid link. But, my test implementation printed out `[[link](/url "title \"&quot;"]`. The reason why it is not a link is because it contains spaces, quotes at various places of the file, as well as backslashes throughout the link. The file has the text `[link](/url "title \"&quot;")`. 
 
 Output for both implementations can be seen here:
 ![Different output](difoutput1.png)
@@ -22,7 +22,7 @@ The reason why the professor's implementation printed out the proper link is bec
 
 ## Second Differemt File Implementation
 
-The second different output is in file 497.md, where it has the text `[link](foo\(and\(bar\))`. This is obviously not a valid link due to the number of open and closed parenthesis in the markdown parse. Naturally, the expected output should be empty as it is not a real link and should not be returned. 
+The second different output is in file (497.md)[https://github.com/ucsd-cse15l-w22/markdown-parse/blob/main/test-files/497.md], where it has the text `[link](foo\(and\(bar\))`. This is obviously not a valid link due to the number of open and closed parenthesis in the markdown parse. Naturally, the expected output should be empty as it is not a real link and should not be returned. 
 
 The implementation done by the professor is correct, while mine is wrong.
 
