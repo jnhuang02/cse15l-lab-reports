@@ -22,4 +22,6 @@
 
 ## [Lab report 4](lab4/lab-report-4-week-8.md)
 
+## [Lab report 5](lab5/lab-report-5-week-10.md)
+
 
